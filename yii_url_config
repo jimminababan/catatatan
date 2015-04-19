@@ -1,0 +1,68 @@
+'urlManager' => [
+		    'class' => 'yii\web\UrlManager',
+		    'showScriptName' => false,
+		    'enablePrettyUrl' => true,
+		    'rules' => array(
+		    		'<kategori:[a-zA-Z0-9_-]+>/<action:\w+>.html' => 'site/<action>',
+		    		
+		    		
+		    		'software-<action:\w+>.html' => 'site/<action>',
+		    		'program-<action:\w+>.html' => 'site/<action>',
+		    		'sistem-<action:\w+>.html' => 'site/<action>',
+		    		'beli-software-<action:\w+>.html' => 'site/<action>',
+		    		'beli-program-<action:\w+>.html' => 'site/<action>',
+		    		
+		    		'supplier-program-<action:\w+>.html' => 'site/<action>',
+		    		'supplier-software-<action:\w+>.html' => 'site/<action>',
+		    		
+		    		
+		    		'blog/<kategori:[a-zA-Z0-9_-]+>/<slug:[a-zA-Z0-9_-]+>.html' => 'site/singlepost',
+		    		'<kategori:[a-zA-Z0-9_-]+>' => 'site/kategori',
+		    		'blog.html'=>'site/blog',
+		    		'blog/<kategori:[a-zA-Z0-9_-]+>' => 'site/blog',
+		    		'service.html'=>'site/service',
+		    		'index.html'=>'site/index',
+		    		'contact.html'=>'site/contact',
+		    		'product.html'=>'site/product',
+		    		
+		    		
+		    		'post.html'=>'post/index',
+		    		
+		    		
+		    		'hospital.html'=>'site/hospital',
+		    		'jual-software/hospital.html'=>'site/hospital',
+		    		'software-batam/hospital.html'=>'site/hospital',
+		    		'apotek.html'=>'site/apotek',
+		    		'clinic.html'=>'site/clinic',
+		    		'labor.html'=>'site/labor',
+		    		'rekam.html'=>'site/rekam',
+		    		'depot.html'=>'site/depot',
+		    		
+		    		
+		    		'accounting.html'=>'site/accounting',
+		    		'cashinout.html'=>'site/cashinout',
+		    		'inventory.html'=>'site/inventory',
+		    		
+		    		'payroll.html'=>'site/payroll',
+		    		'training.html'=>'site/training',
+		    		
+		    		'docont.html'=>'site/docont',
+		    		'laundry.html'=>'site/laundry',
+		    		'rental.html'=>'site/rental',
+		    		'retail.html'=>'site/retail',
+		    		'school.html'=>'site/school',
+		    		'supplier.html'=>'site/supplier',
+		    		'travel.html'=>'site/travel',
+		    		
+		    		'hotel.html'=>'site/hotel',
+		    		'resto.html'=>'site/resto',
+		    		'salon.html'=>'site/salon',
+		    		
+		    		'advertising.html'=>'site/advertising',
+		    		
+		    		'<controller:\w+>/<id:\d+>' => '<controller>/view',
+		    		'<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
+		    		'<controller:\w+>/<action:\w+>' => '<controller>/<action>',
+		    ),
+    	],
+    
