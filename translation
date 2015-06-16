@@ -2,7 +2,12 @@ tambahkan ini di config
 
 
     
+    'language' =>'cina',
+    
+    
     'components' => [
+
+
     
     'i18n' => [
     'translations' => [
